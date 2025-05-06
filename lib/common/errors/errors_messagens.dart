@@ -2,6 +2,7 @@ abstract class MessagesError {
   static const idError = 'Erro de Id não positivo.!!!';
   static const nullStringError = 'Erro de String Nula!!!';
   static const emptyFieldError = 'Erro de Campo em Branco!!!';
+  static const emptySharedP = 'Errooooooo!!!';
   static const invalidDateError = 'Erro de Data Inválida!!!';
   static const minDoubleError = 'Erro valor menor que o Permitido!!!';
   static const maxDoubleError = 'Erro valor maior que o Permitido!!!';
@@ -26,4 +27,5 @@ abstract class MessagesError {
   static const saveSharedP = 'Erro ao Salvar Cache de Login!!!';
   static const saveSharedPKeyNotFound = 'Cache de Login Não Encontrado!!!';
   static const fetchSharedP = 'Erro ao Recuperar Cache de Login!!!';
+  static const apiError = 'Erro na api';
 }

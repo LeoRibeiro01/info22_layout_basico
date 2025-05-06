@@ -1,11 +1,12 @@
 import 'package:faker_dart/faker_dart.dart';
 
-import '../domain/studant_info_entity.dart';
+import '../domain/entities/studant_info_entity.dart';
 
 abstract class StudenteFakeFactory {
   static StudentInfoEntity factory() {
+    // cria uma instância com localidade pt_PT
     final faker = Faker.instance;
-    faker.setLocale(FakerLocaleType.pt_PT);
+    faker.setLocale(FakerLocaleType.pt_BR);
 
     var instance = StudentInfoEntity(
       name: faker.name.fullName(),
