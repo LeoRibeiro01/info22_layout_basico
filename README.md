@@ -1,6 +1,6 @@
 # info22_layout_basico
 
-Projeto da Aula do Roberto
+Projeto da Aula do Roberto, funcionando para a aula de Views
 
 ## Getting Started
 
